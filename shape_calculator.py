@@ -56,10 +56,45 @@ class Rectangle:
         return times
 
 
+class Square(Rectangle):
+    def __init__(self, side):
+        self.side = side
+        # super(). does the function (this case the init) for the parent with the given arguments
+        super().__init__(side, side)
+    
+    def __str__(self):
+        return "Square(side=" + str(self.side) +")"
+
+    # make a set_side function, making sure that we update both width and height
+    def set_side(self, side):
+        self.side = side
+        super().set_width(side)
+        super().set_height(side)
+
+    # update both set_width and set_height function to update both (since its a Square)
+    def set_width(self, side):
+        self.side = side
+        super().set_width(side)
+        super().set_height(side)
+        # or just:
+        #self.width = side
+        #self.height = side
+
+    def set_height(self, side):
+        self.side = side
+        super().set_width(side)
+        super().set_height(side)
+
 
 reccy = Rectangle(4, 8)
-square = Rectangle(4, 4)
-print(reccy)
-print(reccy.get_amount_inside(square))
+square = Square(2)
+print(square)
+square.set_side(6)
+print(square.width)
+print(square.height)
+square.set_width(8)
+square.set_height(10)
+print(square.height)
+print(square)
 
 
