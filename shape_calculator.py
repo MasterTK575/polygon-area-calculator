@@ -26,7 +26,7 @@ class Rectangle:
     def get_picture(self):
         # check that the rectangle is not too big
         if self.width > 50 or self.height > 50:
-            return "Too big for picture"
+            return "Too big for picture."
         else:
             # make lines equal to the height
             output = ""
