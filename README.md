@@ -7,3 +7,7 @@ When a Rectangle object is created, it should be initialized with width and heig
 Process:
 
 What I've learned:
+1. Strip floats of their decimals by converting to int
+2. How to represent objects as strings
+3. Refresher on classes and objects; How to set init attributes
+4. Refresher on creating methods for classes
