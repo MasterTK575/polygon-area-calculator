@@ -11,3 +11,4 @@ What I've learned:
 2. How to represent objects as strings
 3. Refresher on classes and objects; How to set init attributes
 4. Refresher on creating methods for classes
+5. How to create and manage subclasses; how to reference methods of parent class
