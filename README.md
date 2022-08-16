@@ -5,6 +5,10 @@ Create a Rectangle class and a Square class. The Square class should be a subcla
 When a Rectangle object is created, it should be initialized with width and height attributes. Also it needs to have a variety of methods.
 
 Process:
+1. Create Rectangle class
+2. Create Methods for Rectangle class
+3. Create Square class
+4. Create and edit methods for Square class
 
 What I've learned:
 1. Strip floats of their decimals by converting to int
